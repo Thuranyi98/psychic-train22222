@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# psychic-train22222
 
-## Getting Started
+Thura Nyi's portfolio, built with Next.js and inspired by https://hein.pages.dev, with a T monogram and personalized content.
 
-First, run the development server:
+## Run
 
-```bash
+```sh
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. Run `npm run lint` and `npm run build` to validate changes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/` and `/about`: animated introduction and biography
+- `/project`: nine featured projects in a responsive grid with interactive 3D laptop previews
+- `/articles`: article index and featured article
+- `/articles/[slug]`: Thura Nyi's Burmese React article
+- `/gallery`: personal photos and captions
+- `/projects`: alias for the project page
+- `/contact`: email contact page
+- `/resume`: original one-page resume preview and PDF download
 
-## Learn More
+All site navigation stays local. Project demos, source repositories, and social profiles remain external destinations.
 
-To learn more about Next.js, take a look at the following resources:
+## Personalization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Shared navigation and social links: `app/components/site-shell.tsx`
+- Biography: `app/components/portfolio.tsx`
+- Contact email: `app/contact/page.tsx`
+- Imported projects, experience, certificates, and photos: `app/data/profile.json`
+- Project view model: `app/data/projects.ts`
+- Article content: `app/data/articles.json`
+- Resume PDF and high-resolution preview: `public/assets/thura-nyi-resume.pdf` and `public/assets/thura-nyi-resume-preview.png`
+- Sidebar and favicon artwork: `public/assets/monogram.svg`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Personal content is imported from https://thuranyi.vercel.app/ and its linked blog at https://cultural-workshops-163557.framer.app/. The portrait, project screenshots, certificates, gallery, and original resume are stored locally. The design retains the Hein reference layout with Thura Nyi's name and T monogram. The blog source contains a malformed date, so the article displays its topic instead.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Reference artwork, fonts, and project models are stored locally. The animated sphere shader retains its original noise attribution. The Draco decoder under `public/draco` is a third-party runtime and is excluded from application linting.

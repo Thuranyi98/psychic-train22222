@@ -1,0 +1,884 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Bonchon Myanmar Application",
+      "titleLink": "https://apps.apple.com/mm/app/bonchon-myanmar/id6484268092",
+      "description": "Serving 1000+ users. Implemented points and organization coupon discount features and enabled push notifications via Firebase controllable from the dashboard. Fixed client-reported bugs and integrated QR code-based discounts with the POS system.",
+      "highlights": [
+        "1000+ users"
+      ],
+      "image": {
+        "src": "/assets/thura/Bonchon2.c283c6e4.webp",
+        "width": 2490,
+        "height": 1732
+      },
+      "links": [
+        {
+          "name": "APP Store",
+          "link": "https://apps.apple.com/mm/app/bonchon-myanmar/id6484268092"
+        },
+        {
+          "name": "Play Store",
+          "link": "https://play.google.com/store/apps/details?id=com.bonchonmmuserapp&hl=en"
+        }
+      ],
+      "languages": [
+        "React Native",
+        "Hasura",
+        "PostgreSQL",
+        "FireBase"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "MSME by G3G ( Admin Dashboard, Mobile Application )",
+      "titleLink": "https://msmebyg3g.com/",
+      "description": "Empowering local SMEs with a smarter, faster, and more secure way to sell online \u2014 for every buyer in Myanmar, with 1000+ users. Built the Admin Dashboard, Android app, and iOS application, including payment gateway and SMS integration. Maintain the platform and add new features.",
+      "highlights": [
+        "Admin Dashboard",
+        "Android app",
+        "iOS application",
+        "Maintain",
+        "add new features",
+        "1000+ users"
+      ],
+      "image": {
+        "src": "/assets/thura/msmeImage.ebfb3ec1.webp",
+        "width": 3018,
+        "height": 1670
+      },
+      "links": [
+        {
+          "name": "APP Store",
+          "link": "https://apps.apple.com/mm/app/msme-by-g3g/id6746311430"
+        },
+        {
+          "name": "Play Store",
+          "link": "https://play.google.com/store/apps/details?id=com.application.msmebyg3g&hl=enn"
+        }
+      ],
+      "languages": [
+        "React Native",
+        "Next.js",
+        "Expo",
+        "Push Notification",
+        "FireBase",
+        "MMQR (Payment Gateway)"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Playbook of Burma (Video Courses Elearning Platform)",
+      "titleLink": "https://play-book-of-burma-git-main-brilliantdevstudio-7215s-projects.vercel.app/",
+      "description": "Playbook of Top 1%: A curated platform delivering life-changing playbooks, critical decision-making frameworks, and transformative strategies from Myanmar's leading CEOs, founders, and industry experts.",
+      "image": {
+        "src": "/assets/thura/PlaybookOfBurma2.d452215d.webp",
+        "width": 1195,
+        "height": 896
+      },
+      "links": null,
+      "languages": [
+        "Next.js",
+        "TypeScript",
+        "Vercel",
+        "S3",
+        "CloudFront"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "MediHug ( Healthcare Digital Platform )",
+      "titleLink": "https://www.medihug.com.mm/",
+      "description": "A healthcare digital platform with Online Consultation via Video Call and Voice Call, Appointment Booking, Ecommerce, Digital Health Records, and an AI Assistant powered by LLM.",
+      "highlights": [
+        "Online Consultation",
+        "Video Call",
+        "Voice Call",
+        "Appointment Booking",
+        "Ecommerce",
+        "Digital Health Records",
+        "AI Assistant"
+      ],
+      "image": {
+        "src": "/assets/thura/medihug.c431b4c0.webp",
+        "width": 1195,
+        "height": 896
+      },
+      "links": null,
+      "languages": [
+        "Next.js",
+        "PostgreSQL",
+        "Prisma",
+        "OpenAI",
+        "Notification"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Talent Cloud",
+      "titleLink": "https://staging.talent-cloud.asia/",
+      "description": "Talent Cloud: A cross-border career infrastructure platform for the AI era that enables talent across Myanmar, Japan, and ASEAN to turn skills and projects into living profiles for international career opportunities.",
+      "image": {
+        "src": "/assets/thura/TalentCloud.81a6ab42.webp",
+        "width": 3022,
+        "height": 1730
+      },
+      "links": null,
+      "languages": [
+        "Next.js",
+        "TypeScript",
+        "Claude",
+        "Redux"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Sunray Education Group Myanmar",
+      "titleLink": null,
+      "description": "Language school platform with 1000+ registered students. Students can take an English level test online and instantly receive their result. Certificate requests come with an invoice-based bank transfer feature, Telegram bot push notifications, and an admin dashboard that can generate QR codes.",
+      "highlights": [
+        "1000+ registered students",
+        "level test",
+        "Certificate requests",
+        "Telegram bot",
+        "QR codes"
+      ],
+      "image": {
+        "src": "/assets/thura/SunrayEducation.3e4ffe93.webp",
+        "width": 1024,
+        "height": 1024
+      },
+      "links": null,
+      "languages": [
+        "Next.js",
+        "PostgreSQL",
+        "Telegram Bot"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "JOY My Puppy",
+      "titleLink": "https://apps.apple.com/mm/app/joy-my-puppy/id6475634062",
+      "description": "Implemented the Royal Point system with merchandise exchange integration. Added OTP and SMS features using an SMS gateway, fixed bugs, and updated the social media UI of the JOY application.",
+      "image": {
+        "src": "/assets/thura/Joy.ada6589d.webp",
+        "width": 1280,
+        "height": 832
+      },
+      "links": [
+        {
+          "name": "APP Store",
+          "link": "https://apps.apple.com/mm/app/joy-my-puppy/id6475634062"
+        },
+        {
+          "name": "Play Store",
+          "link": "https://play.google.com/store/apps/details?id=com.axratech.joy&hl=en"
+        }
+      ],
+      "languages": [
+        "React Native",
+        "Hasura",
+        "PostgreSQL",
+        "FireBase"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Digizenship",
+      "titleLink": "https://apps.apple.com/in/app/digizenship/id6745482120",
+      "description": "Developed a social media application for students and users at EDUSN International School, featuring organizations, posts, profiles, likes, comments, chat messages, and an admin dashboard for application management. Collaborated with the EDUSN Founder, alongside a team of 4 developers, 2 designers, a team lead, and a project manager.",
+      "image": {
+        "src": "/assets/thura/digizen.bff4a6be.webp",
+        "width": 1640,
+        "height": 924
+      },
+      "links": [
+        {
+          "name": "APP Store",
+          "link": "https://apps.apple.com/in/app/digizenship/id6745482120"
+        }
+      ],
+      "languages": [
+        "React Native",
+        "React",
+        "Ant Design",
+        "FireBase",
+        "AWS"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Locaboo",
+      "titleLink": "http://staging.locaboo.jp/",
+      "description": "Integrated an AI chatbot for chat and ordering using OpenAI, implementing prompt engineering to define rules and conversation flow. Collaborated on UI development with frontend and backend developers. Hosted Locaboo on AWS with a three-tier architecture, optimizing infrastructure for cost savings, maintenance, and logging.",
+      "image": {
+        "src": "/assets/thura/Locaboo2.1b84b451.webp",
+        "width": 1558,
+        "height": 1032
+      },
+      "links": null,
+      "languages": [
+        "React",
+        "AWS",
+        "OpenAI",
+        "CI/CD",
+        "PostgreSQL",
+        "ASG",
+        "LoadBalancing"
+      ]
+    }
+  ],
+  "archive": [
+    {
+      "id": 1,
+      "title": "Thura Nyi",
+      "image": {
+        "src": "/assets/thura/IMG_9174.a1f17e22.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "Thura Nyi",
+      "caption": "One evening at beach",
+      "date": "2025-09-19"
+    },
+    {
+      "id": 2,
+      "title": "Beach",
+      "image": {
+        "src": "/assets/thura/IMG_9107.493abc4d.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "Beach",
+      "caption": "Fine beach",
+      "date": "2025-09-19"
+    },
+    {
+      "id": 3,
+      "title": "where magic happens",
+      "image": {
+        "src": "/assets/thura/IMG_8410.f1309024.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "",
+      "caption": "Shipping features with a smile.",
+      "date": "2024-02-19"
+    },
+    {
+      "id": 4,
+      "title": "Labubu",
+      "image": {
+        "src": "/assets/thura/IMG_8781.74f5f3ab.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "Labubu",
+      "caption": "Labubu V3 popmart",
+      "date": "2025-09-19"
+    },
+    {
+      "id": 5,
+      "title": "Joy Expo Launch",
+      "image": {
+        "src": "/assets/thura/IMG_5131.8f7f92a0.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "joy",
+      "caption": "App launching at Yangon Expo",
+      "date": "2025-09-19"
+    },
+    {
+      "id": 6,
+      "title": "Cafe",
+      "image": {
+        "src": "/assets/thura/IMG_2623.6ed06b8e.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "cafe",
+      "caption": "Coding Pann Sine application at cafe ",
+      "date": "2025-09-19"
+    },
+    {
+      "id": 7,
+      "title": "Coding with New jeans ",
+      "image": {
+        "src": "/assets/thura/IMG_8333.ff62e27f.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "new jeans",
+      "caption": "Coding with New Jeans",
+      "date": "2025-09-19"
+    },
+    {
+      "id": 8,
+      "title": "Jungle Cafe",
+      "image": {
+        "src": "/assets/thura/IMG_3599.9e83861a.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "cafe",
+      "caption": "Coding at cafe",
+      "date": "2025-09-19"
+    },
+    {
+      "id": 9,
+      "title": "RaspberryPi",
+      "image": {
+        "src": "/assets/thura/IMG_9287.13ac9c93.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "pi",
+      "caption": "RaspberryPi For Fuel Management System Local Server",
+      "date": "2025-09-19"
+    },
+    {
+      "id": 9,
+      "title": "Desktop Setup",
+      "image": {
+        "src": "/assets/thura/IMG_7836.6693fce5.webp",
+        "width": 3024,
+        "height": 4032
+      },
+      "alt": "Desktop",
+      "caption": "After coding I have to take rest by playing Fornite",
+      "date": "2025-09-19"
+    },
+    {
+      "id": 9,
+      "title": "FMS Version 1 with Python Tkinter",
+      "image": {
+        "src": "/assets/thura/IMG_6806.f7ea9d2e.webp",
+        "width": 4032,
+        "height": 3024
+      },
+      "alt": "thinter",
+      "caption": "Python Tkinter for FMS computer software",
+      "date": "2025-09-19"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "period": "SEP 2024 - Presence",
+      "title": "Senior Frontend Developer . Next Innovations ltd",
+      "companyLink": "https://next-innovations.ltd/",
+      "logo": {
+        "src": "/assets/thura/next_innovations.69091c13.webp",
+        "width": 200,
+        "height": 200
+      },
+      "description": "Developed and deployed Talent Cloud, a job portal platform, in collaboration with backend developers, designers, and the project manager. Built and managed AWS three-tier architecture with CI/CD pipelines for staging and production, and deployed the company website on AWS Lightsail.",
+      "links": [
+        {
+          "name": "Locaboo.jp",
+          "link": "http://staging.locaboo.jp/"
+        },
+        {
+          "name": "Talent Cloud",
+          "link": "http://staging.talent-cloud.asia/"
+        }
+      ],
+      "technologies": [
+        "React",
+        "Type Script",
+        "Next.js",
+        "AWS",
+        "Open AI",
+        "DevOps"
+      ]
+    },
+    {
+      "id": 5,
+      "period": "DEC 2025 - AUG 2026",
+      "title": "Frontend Developer (Mobile + Web, Remote, Parttime) . B8 ICT Solution",
+      "companyLink": "https://b8ict.net/",
+      "logo": {
+        "src": "/assets/thura/b8.a2e01eea.webp",
+        "width": 200,
+        "height": 200
+      },
+      "description": "Added new features to the MSME by G3G application and handled ongoing maintenance. Also built the B8 ICT Solution company website.",
+      "links": [
+        {
+          "name": "MSME by G3G",
+          "link": "https://msmebyg3g.com/"
+        },
+        {
+          "name": "B8 ICT Solution",
+          "link": "https://b8ict.net/"
+        }
+      ],
+      "technologies": [
+        "React Native",
+        "Next.js",
+        "Expo",
+        "MMQR (Payment Gateway)"
+      ]
+    },
+    {
+      "id": 1,
+      "period": "SEP 2024 - October 2025",
+      "title": "Frontend Developer (Mobile + Web, Remote, Parttime) . AXRA TECH",
+      "companyLink": "https://www.axratech.com/",
+      "logo": {
+        "src": "/assets/thura/axra_tech.4204bbc0.webp",
+        "width": 447,
+        "height": 447
+      },
+      "description": "Implemented the point system and push notification features in the Bonchon application, including updates to the dashboard. Enhanced the Joy My Puppy app by adding OTP and SMS features and fixing bugs, while also developing the appointment and SMS features for the Joy My Puppy Partner app. Additionally, updated the Pann Sine application UI and resolved bugs.",
+      "links": [
+        {
+          "name": "Bonchon Myanmar",
+          "link": "https://apps.apple.com/mm/app/bonchon-myanmar/id6484268092"
+        },
+        {
+          "name": "Joy My Puppy",
+          "link": "https://apps.apple.com/mm/app/joy-my-puppy/id6475634062"
+        },
+        {
+          "name": "Pann Sine",
+          "link": "https://apps.apple.com/mm/app/pann-sine/id6499100047"
+        }
+      ],
+      "technologies": [
+        "React Native",
+        "Hasura",
+        "PostgreSQL",
+        "SMS Gateway"
+      ]
+    },
+    {
+      "id": 2,
+      "period": "JAN 2024 - SEP 2024",
+      "title": "Frontend . Smilax Global Co. ltd",
+      "companyLink": "https://smilaxglobal.com",
+      "logo": {
+        "src": "/assets/thura/smilaxGlobal.bab272ef.webp",
+        "width": 200,
+        "height": 200
+      },
+      "description": "Developed an HR web application using Next.js, implementing modules for hiring, public holidays, and final year processes. Added multi-language support and integrated APIs from a microservices backend. Collaborated closely with the Managing Director, Project Owner, designers, and microservices team to define features and modules.",
+      "links": [],
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "FramerMotion",
+        "Tailwind",
+        "Redux",
+        "Nuqs"
+      ]
+    },
+    {
+      "id": 3,
+      "period": "DEC 2020 - JAN 2024",
+      "title": "FullStack . Digital Engineering Tech",
+      "companyLink": "https://www.digitalengineeringtech.com",
+      "logo": {
+        "src": "/assets/thura/digital_engineering.d7d37ad6.webp",
+        "width": 200,
+        "height": 200
+      },
+      "description": "Developed the Fuel Management web application for KyawSan and a tablet application for controlling nozzles and stations during petrol filling. Built a local server for stations using Raspberry Pi, router, and tablets. Additionally, developed a smart home system with ESP32, integrated with Homebridge and Apple Home voice control, and created smart water controllers for home automation.",
+      "links": [
+        {
+          "name": "FMS",
+          "link": "https://detfsmm.com"
+        },
+        {
+          "name": "FMS",
+          "link": "https://detfsmm.com"
+        },
+        {
+          "name": "Kyaw San Co. ltd",
+          "link": "https://myanmaryellowpages.biz/company_detail/23270/361"
+        }
+      ],
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "React Native",
+        "FramerMotion",
+        "Tailwind",
+        "Node",
+        "Express",
+        "MONGODB",
+        "Redis",
+        "EC2",
+        "Z.com",
+        "MQTT",
+        "RaspberryPi",
+        "HomeBridge"
+      ]
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Bonchon Myanmar",
+      "image": {
+        "src": "/assets/thura/BonChonLogo.5a76678e.webp",
+        "width": 225,
+        "height": 225
+      }
+    },
+    {
+      "id": 3,
+      "name": "EDUSN - International School Myanmar",
+      "image": {
+        "src": "/assets/thura/EDUSN.5b617ed9.webp",
+        "width": 225,
+        "height": 225
+      }
+    },
+    {
+      "id": 4,
+      "name": "Kyaw San Petrol Co.,Ltd. ",
+      "image": {
+        "src": "/assets/thura/KyawSan.c71be8b2.webp",
+        "width": 225,
+        "height": 225
+      }
+    },
+    {
+      "id": 2,
+      "name": "\u682a\u5f0f\u4f1a\u793e Fly High",
+      "image": {
+        "src": "/assets/thura/FlyHigh.006cecea.webp",
+        "width": 272,
+        "height": 270
+      }
+    },
+    {
+      "id": 5,
+      "name": "MSME by G3G",
+      "image": {
+        "src": "/assets/thura/msme.40b8ddaa.webp",
+        "width": 2142,
+        "height": 2142
+      }
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Advanced React Js Frontend with Expert",
+      "issuer": "Udemy",
+      "image": {
+        "src": "/assets/thura/React.be44628a.webp",
+        "width": 2118,
+        "height": 1578
+      },
+      "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-7a2b0c59-4d6d-4e44-8891-61b3047a53ec.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Build a Backend Rest API with Node JS from Stratch",
+      "issuer": "Udemy",
+      "image": {
+        "src": "/assets/thura/Node.482f3f52.webp",
+        "width": 2118,
+        "height": 1578
+      },
+      "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a1bd4683-3e19-45f1-8d0b-5c8a558084c3.pdf"
+    },
+    {
+      "id": 3,
+      "title": "AWS Beginner to Intermediate: EC2, IAM, ELB, ASG, Route 53",
+      "issuer": "Udemy",
+      "image": {
+        "src": "/assets/thura/AWS.55676740.webp",
+        "width": 2182,
+        "height": 1618
+      },
+      "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-5d1afef3-36dd-4496-bd61-2b8fb0c7ce6a.jpg?v=1755701974000"
+    },
+    {
+      "id": 4,
+      "title": "SQL: From Zero to Hero - Unleash the Data Superpowers Within",
+      "issuer": "Udemy",
+      "image": {
+        "src": "/assets/thura/SQL.43466487.webp",
+        "width": 2842,
+        "height": 1618
+      },
+      "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-5d1afef3-36dd-4496-bd61-2b8fb0c7ce6a.jpg?v=1755701974000"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Joy App Launch at Yangon Convention Center",
+      "image": {
+        "src": "/assets/thura/IMG_5107.19f0f0cf.webp",
+        "width": 1200,
+        "height": 1600
+      },
+      "images": [
+        {
+          "src": "/assets/thura/IMG_5107.19f0f0cf.webp",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/assets/thura/IMG_5164.df0377e8.webp",
+          "width": 1200,
+          "height": 1600
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Golf App Development Logic Meeting in Field",
+      "image": {
+        "src": "/assets/thura/IMG_6637.8bdea9d2.webp",
+        "width": 1170,
+        "height": 1299
+      }
+    },
+    {
+      "id": 3,
+      "title": "Fuel Management System Realtime System",
+      "image": {
+        "src": "/assets/thura/IMG_6659.1e6d3c88.webp",
+        "width": 1600,
+        "height": 1202
+      },
+      "images": [
+        {
+          "src": "/assets/thura/IMG_6659.1e6d3c88.webp",
+          "width": 1600,
+          "height": 1202
+        },
+        {
+          "src": "/assets/thura/IMG_6682.b53dc9c5.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/assets/thura/IMG_6863.432e68e8.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/assets/thura/IMG_6953.1336a3fc.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/assets/thura/IMG_7887.74bb3901.webp",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/assets/thura/IMG_8185.ec649a9c.webp",
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pann Sine Mobile App Marketing Meeting",
+      "image": {
+        "src": "/assets/thura/IMG_2265.1c9182a2.webp",
+        "width": 1600,
+        "height": 1202
+      },
+      "images": [
+        {
+          "src": "/assets/thura/IMG_2265.1c9182a2.webp",
+          "width": 1600,
+          "height": 1202
+        },
+        {
+          "src": "/assets/thura/IMG_2267.0bf6e8aa.webp",
+          "width": 1600,
+          "height": 1202
+        },
+        {
+          "src": "/assets/thura/IMG_2270.4d67c0d0.webp",
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "year": "2024",
+      "name": "Khit Zay Ecommerce",
+      "madeAt": "Own project",
+      "languages": [
+        "Next",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "link": "khitzay"
+    },
+    {
+      "id": 2,
+      "year": "2023",
+      "name": "Digit Ecommerce",
+      "madeAt": "Own project",
+      "languages": [
+        "React",
+        "TypeScript"
+      ],
+      "link": "https://thurakhitzay.netlify.app"
+    },
+    {
+      "id": 3,
+      "year": "2023",
+      "name": "Blog API",
+      "madeAt": "Own project",
+      "languages": [
+        "Node",
+        "Express",
+        "MongoDB",
+        "Swagger"
+      ],
+      "link": "https://github.com/Thura69/Blog-Backend"
+    },
+    {
+      "id": 4,
+      "year": "2023",
+      "name": "KBZ Money",
+      "madeAt": "Refrence project",
+      "languages": [
+        "React",
+        "Swiper Slide"
+      ],
+      "link": "https://banking-rosy.vercel.app"
+    },
+    {
+      "id": 5,
+      "year": "2023",
+      "name": "Digit Ecommerce API",
+      "madeAt": "Own project",
+      "languages": [
+        "Express",
+        "Node",
+        "Cloudinary",
+        "JWT",
+        "MongoDb"
+      ],
+      "link": "https://github.com/Thura69/Ecommerce_Backend"
+    },
+    {
+      "id": 6,
+      "year": "2023",
+      "name": "Youtube API",
+      "madeAt": "Own project",
+      "languages": [
+        "Express",
+        "Node",
+        "JWT",
+        "MongoDb"
+      ],
+      "link": "https://github.com/Thura69/Youtube_backend"
+    },
+    {
+      "id": 7,
+      "year": "2020",
+      "name": "Forever Bots NTF Web",
+      "madeAt": "Own Project",
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "link": "https://thura69.github.io/foreverBots/"
+    },
+    {
+      "id": 8,
+      "year": "2020",
+      "name": "Christmas Gift",
+      "madeAt": "Own Project",
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "link": "https://thura69.github.io/Christmas/"
+    },
+    {
+      "id": 9,
+      "year": "2020",
+      "name": "Drew House",
+      "madeAt": "Own Project",
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "link": "https://thura69.github.io/drewhouse/#"
+    },
+    {
+      "id": 10,
+      "year": "2020",
+      "name": "PDF Book Download",
+      "madeAt": "Own Project",
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "link": "https://prometheus-books.netlify.app/"
+    },
+    {
+      "id": 11,
+      "year": "2024",
+      "name": "Google Pixel ( Video Streaming Web )",
+      "madeAt": "Client project",
+      "languages": [
+        "Next.js",
+        "Vidstack",
+        "Zustand",
+        "Tailwind",
+        "CI/CD",
+        "PostgreSQL"
+      ],
+      "link": ""
+    },
+    {
+      "id": 12,
+      "year": "2022",
+      "name": "FMS ( Fuel Management System )",
+      "madeAt": "Client project",
+      "languages": [
+        "React",
+        "Framer Motion",
+        "Express.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "link": "https://detfsmm.com/"
+    },
+    {
+      "id": 13,
+      "year": "2023",
+      "name": "Real Time Chat App",
+      "madeAt": "Own project",
+      "languages": [
+        "Typescript",
+        "React",
+        "Tailwind",
+        "Next",
+        "Next Auth",
+        "Pusher",
+        "Prisma",
+        "SQL"
+      ],
+      "link": "https://real-time-chat-nine.vercel.app"
+    }
+  ]
+}
