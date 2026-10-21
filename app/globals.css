@@ -163,6 +163,10 @@ main:focus, section:focus { outline: none; }
 .experience-current { display: inline-flex; align-items: center; gap: 7px; color: var(--primary); font-size: var(--about-label); margin-top: 12px; }
 .experience-current::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
 .experience-body { min-width: 0; }
+.experience-heading { display: flex; align-items: flex-start; gap: 18px; }
+.experience-heading-details { min-width: 0; }
+.experience-logo { display: grid; place-items: center; flex: 0 0 64px; width: 64px; height: 64px; padding: 8px; border-radius: 12px; background: #fff; border: 1px solid #e7e7e7; overflow: hidden; color: #252525; font-size: 24px; font-weight: 600; }
+.experience-logo img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .experience-body .experience-company { display: inline-flex; align-items: center; gap: 10px; font-size: var(--about-item); color: var(--textBody); transition: color .25s ease; }
 .experience-company svg { flex-shrink: 0; transition: transform .25s ease; }
 .experience-body h3 { margin: 8px 0 0; font-size: var(--about-subheading); line-height: 1.35; letter-spacing: -.01em; color: var(--textTitle); font-weight: 500; }

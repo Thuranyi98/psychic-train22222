@@ -3,6 +3,7 @@
 .primary-button:hover { transform: scale(1.05); }
 .primary-button svg { flex-shrink: 0; }
 .projects-page { overflow: hidden; }
+.project-row-start { grid-column-start: 1; }
 .projects-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 64px 40px; max-width: 1600px; margin: 0 auto; padding-top: 96px; padding-bottom: 64px; }
 .project-section { min-width: 0; border-top: 1px solid color-mix(in srgb, var(--text) 20%, transparent); scroll-margin-top: 96px; }
 .project-content { display: flex; flex-direction: column; height: 100%; }
@@ -11,10 +12,14 @@
 .project-details h2 { font-size: clamp(22px, 2vw, 30px); line-height: 1.2; letter-spacing: -.02em; font-weight: 500; color: var(--textTitle); margin: 0 0 20px; }
 .project-details p { font-size: var(--fontSizeBodyS); line-height: 1.7; margin-bottom: 24px; }
 .project-details .technology-list { font-size: 12px; }
+.project-details .project-status { align-self: flex-start; padding: 6px 12px; border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent); border-radius: 999px; background: color-mix(in srgb, var(--primary) 7%, transparent); color: var(--primary); font-size: 12px; line-height: 1.5; }
 .project-details .project-links { margin-top: auto; gap: 16px; }
 .project-details .primary-button { min-height: 48px; padding: 0 18px; font-size: 16px; }
 .project-preview { display: flex; align-items: center; justify-content: center; position: relative; width: 100%; aspect-ratio: 4 / 3; overflow: hidden; margin: 20px 0 28px; background: transparent; }
 .project-preview::after { content: ''; position: absolute; bottom: 12%; left: 18%; width: 64%; height: 5%; background: #0005; border-radius: 50%; filter: blur(12px); pointer-events: none; }
+.project-preview-mobile::after { bottom: 6%; left: 32%; width: 36%; }
+.phone-fallback { height: 82%; position: absolute; top: 9%; left: 50%; aspect-ratio: 1242 / 2688; transform: translateX(-50%) rotate(-5deg); border: 5px solid #777d87; border-radius: 24px; overflow: hidden; box-shadow: 12px 15px 35px #0005; }
+.phone-fallback img { display: block; height: 100%; width: 100%; object-fit: cover; object-position: top; background: #111419; }
 .project-model { width: 100%; height: 100%; position: relative; z-index: 1; }
 .project-model canvas { position: absolute; width: 100%; height: 100%; inset: 0; transition: opacity .6s; }
 @media (max-width: 800px) { .projects-grid { grid-template-columns: 1fr; gap: 56px; padding-top: 112px; } }

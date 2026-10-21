@@ -34,7 +34,7 @@
       "id": 11,
       "title": "MSME by G3G ( Admin Dashboard, Mobile Application )",
       "titleLink": "https://msmebyg3g.com/",
-      "description": "Empowering local SMEs with a smarter, faster, and more secure way to sell online \u2014 for every buyer in Myanmar, with 1000+ users. Built the Admin Dashboard, Android app, and iOS application, including payment gateway and SMS integration. Maintain the platform and add new features.",
+      "description": "Empowering local SMEs with a smarter, faster, and more secure way to sell online — for every buyer in Myanmar, with 1000+ users. Built the Admin Dashboard, Android app, and iOS application, including payment gateway and SMS integration. Maintain the platform and add new features.",
       "highlights": [
         "Admin Dashboard",
         "Android app",
@@ -73,9 +73,9 @@
       "titleLink": "https://play-book-of-burma-git-main-brilliantdevstudio-7215s-projects.vercel.app/",
       "description": "Playbook of Top 1%: A curated platform delivering life-changing playbooks, critical decision-making frameworks, and transformative strategies from Myanmar's leading CEOs, founders, and industry experts.",
       "image": {
-        "src": "/assets/thura/PlaybookOfBurma2.d452215d.webp",
-        "width": 1195,
-        "height": 896
+        "src": "/assets/thura/playbook-of-burma-website.png",
+        "width": 3012,
+        "height": 1724
       },
       "links": null,
       "languages": [
@@ -84,6 +84,25 @@
         "Vercel",
         "S3",
         "CloudFront"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Play Book of Burma Application",
+      "screenArtwork": "playbook",
+      "titleLink": "https://apps.apple.com/mm/app/playbookofburma/id6802000866",
+      "description": "A mobile learning application featuring video playbooks and insights from Myanmar's leading CEOs, founders, and industry experts.",
+      "previewType": "mobile",
+      "image": {
+        "src": "/assets/thura/play-book-of-burma-application.png",
+        "width": 1242,
+        "height": 2688
+      },
+      "links": null,
+      "languages": [
+        "React Native",
+        "TypeScript",
+        "React Native CLI"
       ]
     },
     {
@@ -101,9 +120,9 @@
         "AI Assistant"
       ],
       "image": {
-        "src": "/assets/thura/medihug.c431b4c0.webp",
-        "width": 1195,
-        "height": 896
+        "src": "/assets/thura/medihug-homepage.png",
+        "width": 3022,
+        "height": 1730
       },
       "links": null,
       "languages": [
@@ -112,6 +131,23 @@
         "Prisma",
         "OpenAI",
         "Notification"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "3D Kulture Ecommerce Website",
+      "titleLink": "https://www.3dkultureburma.com/",
+      "description": "An ecommerce website for 3D printing filaments, printers, and accessories, with product search, category browsing, and price filters.",
+      "image": {
+        "src": "/assets/thura/3d-kulture-ecommerce.png",
+        "width": 3012,
+        "height": 1724
+      },
+      "links": null,
+      "languages": [
+        "Next.js",
+        "Vercel",
+        "AWS"
       ]
     },
     {
@@ -133,38 +169,14 @@
       ]
     },
     {
-      "id": 14,
-      "title": "Sunray Education Group Myanmar",
-      "titleLink": null,
-      "description": "Language school platform with 1000+ registered students. Students can take an English level test online and instantly receive their result. Certificate requests come with an invoice-based bank transfer feature, Telegram bot push notifications, and an admin dashboard that can generate QR codes.",
-      "highlights": [
-        "1000+ registered students",
-        "level test",
-        "Certificate requests",
-        "Telegram bot",
-        "QR codes"
-      ],
-      "image": {
-        "src": "/assets/thura/SunrayEducation.3e4ffe93.webp",
-        "width": 1024,
-        "height": 1024
-      },
-      "links": null,
-      "languages": [
-        "Next.js",
-        "PostgreSQL",
-        "Telegram Bot"
-      ]
-    },
-    {
       "id": 4,
       "title": "JOY My Puppy",
       "titleLink": "https://apps.apple.com/mm/app/joy-my-puppy/id6475634062",
       "description": "Implemented the Royal Point system with merchandise exchange integration. Added OTP and SMS features using an SMS gateway, fixed bugs, and updated the social media UI of the JOY application.",
       "image": {
-        "src": "/assets/thura/Joy.ada6589d.webp",
-        "width": 1280,
-        "height": 832
+        "src": "/assets/thura/joy-my-puppy-app-store.png",
+        "width": 3022,
+        "height": 1730
       },
       "links": [
         {
@@ -184,14 +196,55 @@
       ]
     },
     {
+      "id": 14,
+      "title": "Sunray Education Group Myanmar",
+      "titleLink": null,
+      "description": "Language school platform with 1000+ registered students. Students can take an English level test online and instantly receive their result. Certificate requests come with an invoice-based bank transfer feature, Telegram bot push notifications, and an admin dashboard that can generate QR codes.",
+      "highlights": [
+        "1000+ registered students",
+        "level test",
+        "Certificate requests",
+        "Telegram bot",
+        "QR codes"
+      ],
+      "image": {
+        "src": "/assets/thura/sunray-homepage.png",
+        "width": 3022,
+        "height": 1730
+      },
+      "links": null,
+      "languages": [
+        "Next.js",
+        "PostgreSQL",
+        "Telegram Bot"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "DPM Trading",
+      "titleLink": null,
+      "description": "A trading platform website showcasing MetaTrader 5, trading instruments, promotions, and copy trading services.",
+      "image": {
+        "src": "/assets/thura/dpm-trading-website.png",
+        "width": 3012,
+        "height": 1724
+      },
+      "links": null,
+      "languages": [
+        "Next.js",
+        "Framer",
+        "TypeScript"
+      ]
+    },
+    {
       "id": 5,
       "title": "Digizenship",
       "titleLink": "https://apps.apple.com/in/app/digizenship/id6745482120",
       "description": "Developed a social media application for students and users at EDUSN International School, featuring organizations, posts, profiles, likes, comments, chat messages, and an admin dashboard for application management. Collaborated with the EDUSN Founder, alongside a team of 4 developers, 2 designers, a team lead, and a project manager.",
       "image": {
-        "src": "/assets/thura/digizen.bff4a6be.webp",
-        "width": 1640,
-        "height": 924
+        "src": "/assets/thura/digizenship-app-store.png",
+        "width": 3022,
+        "height": 1730
       },
       "links": [
         {
@@ -206,6 +259,22 @@
         "FireBase",
         "AWS"
       ]
+    },
+    {
+      "id": 16,
+      "title": "TeeUpOClock",
+      "startsRow": false,
+      "titleLink": null,
+      "description": "Myanmar's first golf booking application. Golfers can book golf courses directly through the app and pay through an integrated payment gateway.",
+      "previewType": "mobile",
+      "status": "In TestFlight testing",
+      "image": {
+        "src": "/assets/thura/teeupoclock-application.png",
+        "width": 516,
+        "height": 1496
+      },
+      "links": null,
+      "languages": []
     },
     {
       "id": 3,
@@ -227,6 +296,22 @@
         "ASG",
         "LoadBalancing"
       ]
+    },
+    {
+      "id": 19,
+      "title": "MyanSan POS",
+      "titleLink": "https://www.myansanpos.com/",
+      "description": "A point-of-sale and store management platform with 200+ active users. Features include checkout, inventory management, credit payments, branch and staff management, and financial reports.",
+      "highlights": [
+        "200+ active users"
+      ],
+      "image": {
+        "src": "/assets/thura/myansan-pos.png",
+        "width": 3012,
+        "height": 1724
+      },
+      "links": null,
+      "languages": []
     }
   ],
   "archive": [
@@ -365,9 +450,21 @@
   ],
   "experience": [
     {
+      "id": 6,
+      "period": "SEP 2026 - Present",
+      "title": "Frontend Developer (Full-time, Remote) . iDiamond",
+      "companyLink": null,
+      "description": "Frontend development for iDiamond, an online diamond jewelry store based in Dubai, United Arab Emirates.",
+      "links": [],
+      "technologies": [
+        "Next.js",
+        "React"
+      ]
+    },
+    {
       "id": 1,
-      "period": "SEP 2024 - Presence",
-      "title": "Senior Frontend Developer . Next Innovations ltd",
+      "period": "SEP 2024 - Completed",
+      "title": "Mobile & FullStack Developer . Next Innovations ltd",
       "companyLink": "https://next-innovations.ltd/",
       "logo": {
         "src": "/assets/thura/next_innovations.69091c13.webp",
@@ -425,7 +522,7 @@
     {
       "id": 1,
       "period": "SEP 2024 - October 2025",
-      "title": "Frontend Developer (Mobile + Web, Remote, Parttime) . AXRA TECH",
+      "title": "Mobile Developer (Remote, Parttime) . AXRA TECH",
       "companyLink": "https://www.axratech.com/",
       "logo": {
         "src": "/assets/thura/axra_tech.4204bbc0.webp",

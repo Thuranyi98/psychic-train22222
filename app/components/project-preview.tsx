@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-export default function ProjectPreview({ image, alt }: { image: string; alt: string }) {
+export default function ProjectPreview({ image, alt, mobile = false, playbookArtwork = false }: { image: string; alt: string; mobile?: boolean; playbookArtwork?: boolean }) {
   const host = useRef<HTMLDivElement>(null);
   const canvas = useRef<HTMLCanvasElement>(null);
   const [loaded, setLoaded] = useState(false);
@@ -59,7 +59,7 @@ export default function ProjectPreview({ image, alt }: { image: string; alt: str
         if (!width || !height) return;
         renderer.setSize(width, height, false);
         camera.aspect = width / height;
-        // Fit the complete laptop, including its base, at every card size.
+        // Fit the complete device at every card size.
         const vertical = THREE.MathUtils.degToRad(camera.fov / 2);
         const horizontal = Math.atan(Math.tan(vertical) * camera.aspect);
         const distance = Math.max(modelSize.x / (2 * Math.tan(horizontal)), modelSize.y / (2 * Math.tan(vertical))) + modelSize.z / 2;
@@ -90,11 +90,13 @@ export default function ProjectPreview({ image, alt }: { image: string; alt: str
         draco.dispose();
         renderer.dispose();
       };
-      const laptop = await loader.loadAsync("/assets/models/macbook-pro.glb");
-      laptop.scene.traverse(node => {
+      const phoneModule = mobile ? await import("./phone-model") : undefined;
+      const device = phoneModule ? phoneModule.createPhoneModel() : (await loader.loadAsync("/assets/models/macbook-pro.glb")).scene;
+      device.traverse(node => {
         if (!(node instanceof THREE.Mesh)) return;
         geometries.add(node.geometry);
         (Array.isArray(node.material) ? node.material : [node.material]).forEach(material => materials.add(material));
+        if (mobile) return;
         const screen = node.name === "Screen";
         const metal = ["Body", "Frame", "Logo"].includes(node.name);
         const material = screen
@@ -107,7 +109,7 @@ export default function ProjectPreview({ image, alt }: { image: string; alt: str
       const source = await new THREE.TextureLoader().loadAsync(image);
       textures.add(source);
       if (disposed) { cleanup(); return; }
-      const screen = laptop.scene.getObjectByName("Screen") as import("three").Mesh;
+      const screen = device.getObjectByName("Screen") as import("three").Mesh;
       screen.geometry.computeBoundingBox();
       const size = screen.geometry.boundingBox!.getSize(new THREE.Vector3());
       const surface = document.createElement("canvas");
@@ -116,30 +118,35 @@ export default function ProjectPreview({ image, alt }: { image: string; alt: str
       const context = surface.getContext("2d")!;
       context.fillStyle = "#111419";
       context.fillRect(0, 0, surface.width, surface.height);
-      // Fill the display without distortion, cropping excess image edges.
+      // Phone screenshots fill the viewport; laptop previews keep the full image.
       const bitmap = source.image as HTMLImageElement;
-      const scale = Math.max(surface.width / bitmap.width, surface.height / bitmap.height);
+      const scale = mobile
+        ? Math.max(surface.width / bitmap.width, surface.height / bitmap.height)
+        : Math.min(surface.width / bitmap.width, surface.height / bitmap.height);
       const width = bitmap.width * scale;
       const height = bitmap.height * scale;
-      context.drawImage(bitmap, (surface.width - width) / 2, (surface.height - height) / 2, width, height);
+      if (phoneModule && playbookArtwork) phoneModule.paintPhoneScreen(context, bitmap);
+      else context.drawImage(bitmap, (surface.width - width) / 2, mobile ? 0 : (surface.height - height) / 2, width, height);
       const texture = new THREE.CanvasTexture(surface);
       textures.add(texture);
       texture.colorSpace = THREE.SRGBColorSpace;
-      texture.flipY = false;
+      texture.flipY = mobile;
       texture.anisotropy = renderer.capabilities.getMaxAnisotropy();
       (screen.material as import("three").MeshBasicMaterial).map = texture;
       (screen.material as import("three").MeshBasicMaterial).needsUpdate = true;
-      const bounds = new THREE.Box3().setFromObject(laptop.scene);
-      laptop.scene.position.sub(bounds.getCenter(new THREE.Vector3()));
-      group.add(laptop.scene);
-      group.rotation.set(0.12, -0.12, 0);
+      const bounds = new THREE.Box3().setFromObject(device);
+      device.position.sub(bounds.getCenter(new THREE.Vector3()));
+      group.add(device);
+      const baseX = mobile ? -0.06 : 0.12;
+      const baseY = mobile ? -0.45 : -0.12;
+      group.rotation.set(baseX, baseY, mobile ? -0.08 : 0);
       new THREE.Box3().setFromObject(group).getSize(modelSize);
       resize();
       const draw = () => {
         frame = requestAnimationFrame(draw);
         if (!visible || document.hidden) return;
-        group.rotation.x += (0.12 + (reduceMotion.matches ? 0 : y * 0.08) - group.rotation.x) * 0.08;
-        group.rotation.y += (-0.12 + (reduceMotion.matches ? 0 : x * 0.12) - group.rotation.y) * 0.08;
+        group.rotation.x += (baseX + (reduceMotion.matches ? 0 : y * 0.08) - group.rotation.x) * 0.08;
+        group.rotation.y += (baseY + (reduceMotion.matches ? 0 : x * 0.12) - group.rotation.y) * 0.08;
         renderer.render(scene, camera);
       };
       renderer.render(scene, camera);
@@ -155,10 +162,10 @@ export default function ProjectPreview({ image, alt }: { image: string; alt: str
     }, { rootMargin: "200px" });
     observer.observe(element);
     return () => { disposed = true; observer.disconnect(); cleanup?.(); };
-  }, [image]);
+  }, [image, mobile, playbookArtwork]);
 
-  return <div ref={host} className="project-model" role="img" aria-label={`${alt}, laptop preview`}>
-    {!loaded && <div className="device-fallback"><Image src={image} width={1280} height={800} alt="" sizes="(max-width: 800px) 80vw, 40vw" /></div>}
+  return <div ref={host} className="project-model" role="img" aria-label={`${alt}, ${mobile ? "iPhone 17 Pro 3D" : "laptop"} preview`}>
+    {!loaded && <div className={mobile ? "phone-fallback" : "device-fallback"}><Image src={image} width={mobile ? 1242 : 1280} height={mobile ? 2688 : 800} alt="" sizes="(max-width: 800px) 80vw, 40vw" /></div>}
     <canvas ref={canvas} aria-hidden="true" style={{ opacity: loaded ? 1 : 0 }} />
   </div>;
 }

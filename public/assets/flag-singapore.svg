@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <path fill="#fff" d="M0 0h900v600H0z"/>
+  <path fill="#ef3340" d="M0 0h900v300H0z"/>
+  <circle cx="180" cy="150" r="110" fill="#fff"/>
+  <circle cx="225" cy="150" r="100" fill="#ef3340"/>
+  <defs>
+    <path id="star" d="M0-25 5.61-7.73 23.78-7.73 9.08 2.95 14.69 20.23 0 9.55-14.69 20.23-9.08 2.95-23.78-7.73-5.61-7.73Z" fill="#fff"/>
+  </defs>
+  <use href="#star" transform="translate(270 80)"/>
+  <use href="#star" transform="translate(336.57 128.37)"/>
+  <use href="#star" transform="translate(311.14 206.63)"/>
+  <use href="#star" transform="translate(228.86 206.63)"/>
+  <use href="#star" transform="translate(203.43 128.37)"/>
+</svg>

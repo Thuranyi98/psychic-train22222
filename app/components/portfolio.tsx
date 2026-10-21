@@ -113,7 +113,7 @@ export default function Portfolio() {
                 <h3 id="details-title">Hi there!</h3>
                 <div className="about-flags">
                   <Image src="/assets/flag-myanmar.svg" alt="Myanmar flag" title="Myanmar" width={33} height={22} />
-                  <Image src="/assets/flag-vietnam.svg" alt="Vietnam flag" title="Vietnam" width={33} height={22} />
+                  <Image src="/assets/flag-singapore.svg" alt="Singapore flag" title="Singapore" width={33} height={22} />
                   <Image src="/assets/flag-japan.svg" alt="Japan flag" title="Japan" width={33} height={22} />
                 </div>
               </div>
