@@ -31,7 +31,7 @@ export default function ProfileDetails() {
             <div className="experience-period"><span>{start}</span><span className="experience-end">{end}</span>{end === "Present" && <span className="experience-current">Current</span>}</div>
             <div className="experience-body">
               <header className="experience-heading">
-                <span className="experience-logo" aria-hidden="true">
+                <span className={`experience-logo${job.logo?.dark ? " is-dark" : ""}`} aria-hidden="true">
                   {job.logo ? <Image src={job.logo.src} alt="" width={job.logo.width} height={job.logo.height} sizes="64px" /> : <span>iD</span>}
                 </span>
                 <div className="experience-heading-details">{job.companyLink ? <a className="experience-company" href={job.companyLink} target="_blank" rel="noopener noreferrer">{company}<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" strokeWidth="1.5" fill="none" /></svg></a> : <span className="experience-company">{company}</span>}<h3>{role}</h3>{arrangement && <p className="experience-arrangement">{arrangement}</p>}</div>

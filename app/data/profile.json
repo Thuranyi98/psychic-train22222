@@ -1,6 +1,22 @@
 {
   "projects": [
     {
+      "id": 20,
+      "title": "IDiamond Ecommerce",
+      "titleLink": "https://idiamond.ae/",
+      "description": "Ecommerce storefront for iDiamond, a Dubai diamond jewelry house. Built the storefront for browsing collections, custom jewelry, and booking a showroom appointment.",
+      "image": {
+        "src": "/assets/thura/idiamond-ecommerce.webp",
+        "width": 1024,
+        "height": 582
+      },
+      "links": null,
+      "languages": [
+        "Next.js",
+        "React"
+      ]
+    },
+    {
       "id": 1,
       "title": "Bonchon Myanmar Application",
       "titleLink": "https://apps.apple.com/mm/app/bonchon-myanmar/id6484268092",
@@ -453,7 +469,13 @@
       "id": 6,
       "period": "SEP 2026 - Present",
       "title": "Frontend Developer (Full-time, Remote) . iDiamond",
-      "companyLink": null,
+      "companyLink": "https://idiamond.ae/",
+      "logo": {
+        "src": "/assets/thura/idiamond-logo.webp",
+        "width": 256,
+        "height": 256,
+        "dark": true
+      },
       "description": "Frontend development for iDiamond, an online diamond jewelry store based in Dubai, United Arab Emirates.",
       "links": [],
       "technologies": [
